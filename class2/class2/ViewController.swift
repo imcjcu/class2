@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         
         if let d = Int(str)
         {
-            print("Yes")
+            print("Yes \(d)")
         }
         else
         {
@@ -34,6 +34,12 @@ class ViewController: UIViewController {
         
         let x = add(a:2, b:5)
         print(x)
+        
+        let array = ["a","b","c"]
+        for s in array
+        {
+                print(s)
+        }
     }
     
     func add(a:Int, b:Int)->Int
